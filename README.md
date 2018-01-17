@@ -77,6 +77,7 @@ while 1:
         i+=1
 
 for k in d.keys():
+    
     print('Details of the person- %d entered:'%k)
     print('Name:',d[k]['Name'].title())
     print('Age:',d[k]['Age'])
